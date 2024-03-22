@@ -69,7 +69,7 @@ defmodule HiddenCell do
         ctx.pushEvent("update_title", { title: event.target.value });
       });
 
-      title.addEventListener("change", (event) => {
+      title.addEventListener("dblclick", (event) => {
         if (textarea.style.display == "none") {
           textarea.style.display = "block"
           title_input.style.display = "block"
@@ -108,7 +108,7 @@ defmodule HiddenCell do
       background-color: rgb(255 255 255);
       border-radius: 0.5rem;
       font-weight: 500;
-      color: rgb(97 117 138);
+      color: rgb(255 255 255);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
       max-height: 20px;
     }
@@ -121,7 +121,6 @@ defmodule HiddenCell do
     #title {
       text-align: center;
       cursor: pointer;
-      max-height: 20px;
     }
     """
   end
