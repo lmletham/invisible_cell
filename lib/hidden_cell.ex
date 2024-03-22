@@ -1,7 +1,7 @@
 defmodule HiddenCell do
   use Kino.JS
   use Kino.JS.Live
-  use Kino.SmartCell, name: "Invisible Cell"
+  use Kino.SmartCell, name: "Invisible Cell2"
 
   @impl true
   def init(attrs, ctx) do
@@ -112,11 +112,13 @@ defmodule HiddenCell do
 
     #title_input, #source {
       width: 100%;
+      margin: 0.5rem 0;
       box-sizing: border-box;
     }
     #title {
       text-align: center;
       cursor: pointer;
+      max-height: 10px;
     }
     """
   end
