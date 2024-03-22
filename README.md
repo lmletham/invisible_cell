@@ -6,6 +6,8 @@
 
 `HiddenCell` relies on the [Kino](https://github.com/trbflxr/kino) project. Use `Mix.install/2` in the setup section of your project to install `HiddenCell` and `Kino`.
 
+I've added changes to make the hidden cell invisible in Livebook.
+
 ```elixir
 Mix.install([{:kino, "~> 0.6.2"}, {:hidden_cell, github: "BrooklinJazz/hidden_cell"}])
 ```

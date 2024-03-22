@@ -99,12 +99,12 @@ defmodule HiddenCell do
   asset "main.css" do
     """
     #source {
-      min-height: 100px;
+      min-height: 20px;
     }
 
     #container {
       padding: 0.3rem;
-      background-color: rgb(240 245 249);
+      background-color: rgb(255 255 255);
       border-radius: 0.5rem;
       font-weight: 500;
       color: rgb(97 117 138);
