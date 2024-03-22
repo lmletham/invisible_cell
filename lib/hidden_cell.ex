@@ -1,12 +1,12 @@
 defmodule HiddenCell do
   use Kino.JS
   use Kino.JS.Live
-  use Kino.SmartCell, name: "Hidden Cell LML"
+  use Kino.SmartCell, name: "Hidden Cell LML2"
 
   @impl true
   def init(attrs, ctx) do
     source = attrs["source"] || ""
-    title = attrs["title"] || "Hidden Cell LML"
+    title = attrs["title"] || "Hidden Cell LML2"
     {:ok, assign(ctx, source: source, title: title)}
   end
 
