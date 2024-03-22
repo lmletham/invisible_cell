@@ -99,14 +99,14 @@ defmodule HiddenCell do
   asset "main.css" do
     """
     #source {
-      min-height: 100px;
+      min-height: 50px;
     }
 
     #container {
       background-color: rgb(255 255 255);
       border-radius: 0.5rem;
       font-weight: 500;
-      color: rgb(255 255 255);
+      color: rgb(97 117 138);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
     }
 
