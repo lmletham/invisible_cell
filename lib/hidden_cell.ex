@@ -1,7 +1,7 @@
 defmodule HiddenCell do
   use Kino.JS
   use Kino.JS.Live
-  use Kino.SmartCell, name: "Invisible Cell3"
+  use Kino.SmartCell, name: "Invisible Cell"
 
   @impl true
   def init(attrs, ctx) do
