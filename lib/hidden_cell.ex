@@ -117,6 +117,7 @@ defmodule HiddenCell do
       width: 100%;
       margin: 0.5rem 0;
       box-sizing: border-box;
+      color: rgb(255 255 255);
     }
     #title {
       text-align: center;
