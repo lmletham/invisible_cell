@@ -118,6 +118,7 @@ defmodule HiddenCell do
     #title {
       text-align: center;
       cursor: pointer;
+      max-height = 20px;
     }
     """
   end
