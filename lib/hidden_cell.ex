@@ -1,12 +1,12 @@
 defmodule HiddenCell do
   use Kino.JS
   use Kino.JS.Live
-  use Kino.SmartCell, name: "Hidden Cell LML2"
+  use Kino.SmartCell, name: "Hidden Cell LML3"
 
   @impl true
   def init(attrs, ctx) do
     source = attrs["source"] || ""
-    title = attrs["title"] || "Hidden Cell LML2"
+    title = attrs["title"] || "Hidden Cell"
     {:ok, assign(ctx, source: source, title: title)}
   end
 
@@ -103,11 +103,10 @@ defmodule HiddenCell do
     }
 
     #container {
-      padding: 0.3rem;
       background-color: rgb(255 255 255);
       border-radius: 0.5rem;
       font-weight: 500;
-      color: rgb(97 117 138);
+      color: rgb(255 255 255);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
     }
 
