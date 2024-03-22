@@ -6,7 +6,7 @@ defmodule HiddenCell do
   @impl true
   def init(attrs, ctx) do
     source = attrs["source"] || ""
-    title = attrs["title"] || "           "
+    title = attrs["title"] || "Hidden Cell LML"
     {:ok, assign(ctx, source: source, title: title), editor: [attribute: "code", language: "elixir"]}
     #     {:ok, assign(ctx, source: source, title: title)}
   end
