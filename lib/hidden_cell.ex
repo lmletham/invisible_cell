@@ -69,7 +69,7 @@ defmodule HiddenCell do
         ctx.pushEvent("update_title", { title: event.target.value });
       });
 
-      title.addEventListener("dblclick", (event) => {
+      title.addEventListener("change", (event) => {
         if (textarea.style.display == "none") {
           textarea.style.display = "block"
           title_input.style.display = "block"
@@ -121,6 +121,7 @@ defmodule HiddenCell do
     #title {
       text-align: center;
       cursor: pointer;
+      max-height: 20px;
     }
     """
   end
