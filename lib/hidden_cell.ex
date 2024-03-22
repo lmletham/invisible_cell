@@ -121,6 +121,7 @@ defmodule HiddenCell do
     #title {
       text-align: center;
       cursor: pointer;
+      color: rgb(255 255 255);
     }
     """
   end
