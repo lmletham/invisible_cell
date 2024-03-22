@@ -1,7 +1,7 @@
 defmodule HiddenCell do
   use Kino.JS
   use Kino.JS.Live
-  use Kino.SmartCell, name: "Hidden Cell"
+  use Kino.SmartCell, name: "Hidden Cell LML"
 
   @impl true
   def init(attrs, ctx) do
@@ -108,7 +108,7 @@ defmodule HiddenCell do
       background-color: rgb(255 255 255);
       border-radius: 0.5rem;
       font-weight: 500;
-      color: rgb(255 255 255);
+      color: rgb(97 117 138);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
       max-height: 20px;
     }
@@ -117,12 +117,10 @@ defmodule HiddenCell do
       width: 100%;
       margin: 0.5rem 0;
       box-sizing: border-box;
-      color: rgb(255 255 255);
     }
     #title {
       text-align: center;
       cursor: pointer;
-      color: rgb(255 255 255);
     }
     """
   end
