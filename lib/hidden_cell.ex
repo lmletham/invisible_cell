@@ -105,7 +105,7 @@ defmodule HiddenCell do
     #container {
       background-color: rgb(255 255 255);
       font-weight: 500;
-      color: rgb(97 117 138);
+      color: rgb(255 255 255);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 
     }
