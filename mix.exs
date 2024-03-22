@@ -1,9 +1,9 @@
-defmodule HiddenCell.MixProject do
+defmodule InvisibleCell.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :hidden_cell,
+      app: :invisible_cell,
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
@@ -15,7 +15,7 @@ defmodule HiddenCell.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {HiddenCell.Application, []}
+      mod: {InvisibleCell.Application, []}
     ]
   end
 

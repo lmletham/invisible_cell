@@ -1,4 +1,4 @@
-defmodule HiddenCell do
+defmodule InvisibleCell do
   use Kino.JS
   use Kino.JS.Live
   use Kino.SmartCell, name: "Invisible Cell"
