@@ -117,6 +117,7 @@ defmodule InvisibleCell do
     #title {
       text-align: left;
       cursor: pointer;
+      max-height: 5px;
     }
     """
   end
