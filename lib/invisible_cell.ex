@@ -6,7 +6,7 @@ defmodule InvisibleCell do
   @impl true
   def init(attrs, ctx) do
     source = attrs["source"] || ""
-    title = attrs["title"] || "Invisible Cell"
+    title = attrs["title"] || "Invisible Cell 1"
     {:ok, assign(ctx, source: source, title: title)}
   end
 
@@ -99,7 +99,7 @@ defmodule InvisibleCell do
   asset "main.css" do
     """
     #source {
-      min-height: 50px;
+      min-height: 20px;
     }
 
     #container {
@@ -107,7 +107,7 @@ defmodule InvisibleCell do
       font-weight: 500;
       color: rgb(255 255 255);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-
+      max-height: 50px;
     }
 
     #title_input, #source {
@@ -116,9 +116,8 @@ defmodule InvisibleCell do
       box-sizing: border-box;
     }
     #title {
-      text-align: center;
+      text-align: left;
       cursor: pointer;
-      max-height: 5px;
     }
     """
   end
