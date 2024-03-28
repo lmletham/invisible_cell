@@ -1,12 +1,12 @@
 defmodule InvisibleCell do
   use Kino.JS
   use Kino.JS.Live
-  use Kino.SmartCell, name: "Invisible Cell"
+  use Kino.SmartCell, name: "Invisible Cell 2"
 
   @impl true
   def init(attrs, ctx) do
     source = attrs["source"] || ""
-    title = attrs["title"] || "Invisible Cell 1"
+    title = attrs["title"] || "Invisible Cell"
     {:ok, assign(ctx, source: source, title: title)}
   end
 
@@ -107,7 +107,6 @@ defmodule InvisibleCell do
       font-weight: 500;
       color: rgb(255 255 255);
       font-family: Inter, system-ui,-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-      max-height: 50px;
     }
 
     #title_input, #source {
