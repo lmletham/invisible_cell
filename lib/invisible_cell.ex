@@ -115,9 +115,9 @@ defmodule InvisibleCell do
       box-sizing: border-box;
     }
     #title {
-      text-align: left;
+      text-align: center;
       cursor: pointer;
-      max-height: 5px;
+      max-height: 2px;
     }
     """
   end
