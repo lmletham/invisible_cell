@@ -5,7 +5,7 @@ defmodule InvisibleCell.MixProject do
     [
       app: :invisible_cell,
       version: "0.1.0",
-      elixir: "~> 1.13",
+      elixir: "~> 1.17.2",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -22,7 +22,7 @@ defmodule InvisibleCell.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:kino, "~> 0.7.0"}
+      {:kino, "~> 0.13.2"}
     ]
   end
 end
